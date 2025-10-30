@@ -12,7 +12,6 @@ class Card:
                 mixed = "{} {}".format(card, color)
                 all_cards.append(mixed)
         return all_cards
-    
 
     def shuffle_cards(self):
         shuffled_cards = []
@@ -22,11 +21,6 @@ class Card:
                 shuffled_cards.append(mixed)
                 random.shuffle(shuffled_cards)
         return shuffled_cards
-
-
-    #   🔀 This shuffles the list in place
-
-
 deck = Card()
 print(deck.check_cards())
 space = " "
